@@ -44,5 +44,5 @@ The goal of AI Fashion Stylist in the Fashion Industry is to bring about a major
 ![Contact Us Page](ScreenShoot/ContactUs.png)
 
 ## Contact Us
-Email: contact@AiFashionStylist.com
+Email: contact@AiFashionStylist.com <br />
 Phone: +62898128856
