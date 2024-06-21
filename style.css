@@ -125,7 +125,7 @@ footer a:hover {
 }
 
 #fixedCard {
-    width: 25px; /* Lebar yang diinginkan */
+    width: 250px; /* Lebar yang diinginkan */
     padding: 20px; /* Padding untuk memberi ruang di dalam kotak */
     background-color: #f0f0f0; /* Warna abu-abu */
     border: 1px solid #ccc; /* Garis pinggir */
