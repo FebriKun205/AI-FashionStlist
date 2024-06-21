@@ -1,6 +1,6 @@
 let imageURL;
 
-// scripts.js for index.html
+// scripts.js
 
 function generateProducts() {
   const categories = [
