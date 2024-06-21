@@ -30,3 +30,26 @@ function previewImage() {
     reader.readAsDataURL(fileInput.files[0]);
   }
 }
+function generateProducts() {
+  const categories = [
+    "Cokelat_Laki",
+    "Hitam_Laki",
+    "Cerah_Laki",
+    "Cokelat_Perempuan",
+    "Hitam_Perempuan",
+    "Cerah_Perempuan",
+  ];
+  const productCount = 10;
+  const products = [];
+
+  categories.forEach((category) => {
+    for (let i = 1; i <= productCount; i++) {
+      products.push({
+        name: `Outfit_${i}`,
+        image: `./DATASET KULIT/${category}${i}.png`,
+      });
+    }
+  });
+
+  return products;
+}
