@@ -1,6 +1,6 @@
 let imageURL;
 
-// scripts.js
+// scripts.js for index.html
 
 const products = generateProducts();
 
