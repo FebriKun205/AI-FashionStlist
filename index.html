@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="assets/AI_Remake.png" />
+
+    <title>AI Fashion Stylist</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+      
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="assets/AI_Remake.png" alt="GOBackground Logo"> AI Fashion Stylist
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#try-now">Try Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 style="font-weight: bold; font-size: 40px; color: #008069;">Welcome to <br>AI Fashion Stylist</h1>
+                    <p style="font-size: 20px; color: #333;">
+                        Helping you choose outfits based on your skin tones. It's <em><strong>fast, easy, and free!</strong></em>
+                    </p>
+                    <button onclick="window.location.href = '#try-now'" class="btn-capsule">Try Now</button>
+                </div>
+                <div class="col-md-6">
+                    <div class="video-container">
+                        <video width="100%" height="auto" autoplay loop muted>
+                            <source src="assets/BGremover.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+</head>
+<body>
+    <section id="try-now">
+    <div class="container">
+        <h2 style="align-items: center;font-size: 40px;color: whitesmoke;">Upload Your Image Here</h2>
+        <div class="row">
+            <div class="col-md-6" style="padding-right: 50px;">
+                <div id="imagePreview" style="display: none;">
+                    <h3 id="imageName">This is your image</h3>
+                    <img id="uploadedImage" src="" alt="Uploaded Image" style="max-width: 100%; height: 300px;">
+                </div>
+            </div>
+            <div class="col-md-6 card" id="fixedCard">
+                <form style="border-bottom: #333;">
+                    <div class="form-group">
+                        <label for="fileInput">Select a File:</label> 
+                        <input id="fileInput" class="form-control" type="file" onchange="previewImage()">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <article class="product_section" id="productSection">
+            <!-- Products will be injected here by JavaScript -->
+        </article>
+    </div>
+</section>
+
+    
+    
+    
+    
+    
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 style="font-size: 36px; font-weight: bold; color: #008069; padding-bottom: 20px;">About Us</h2>
+                    <p style="color: black;">
+                        We are committed to delivering high-quality results and making the outfit selection process as simple as possible. Whether you're an individual looking to enhance your daily look or a business needing appealing product images, AI Fashion Stylist is here to help you choose your daily outfits based on your skin tone.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="video-container">
+                        <video width="100%" height="auto" autoplay loop muted>
+                            <source src="assets/BGremover.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section id="contact" >
+        <div class="container">
+            <div class="row" >
+                <div class="col-md-6 " style=" color: #f8f9fa;;" >
+                    <h2 style="font-weight: bold;color: #f8f9fa; ">Contact Us</h2>
+                    <address style="padding-top: 20px;">
+
+                    <p  style="color: #f8f9fa;">If you have any questions or feedback, feel free to reach out to us:</p>
+                        Email: <a href="mailto:contact@GOBackground.com" style="color: white;">contact@AiFashionStylist.com</a><br>
+                        Phone: +62898128856<br>
+                    </address>
+                </div>
+                <div class="col-md-6">
+                <img src="assets/q15.jpg" alt="Contact Image" style="max-width: 75%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class=" py-4  text-center" style="background-color:#ccfffb;">
+        <div class="container">
+            <p>&copy; 2024 AI Fashion Stylist. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
