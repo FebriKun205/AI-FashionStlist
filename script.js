@@ -2,6 +2,30 @@ let imageURL;
 
 // scripts.js for index.html
 
+function generateProducts() {
+  const categories = [
+    "Cokelat_Laki",
+    "Hitam_Laki",
+    "Cerah_Laki",
+    "Cokelat_Perempuan",
+    "Hitam_Perempuan",
+    "Cerah_Perempuan",
+  ];
+  const productCount = 10;
+  const products = [];
+
+  categories.forEach((category) => {
+    for (let i = 1; i <= productCount; i++) {
+      products.push({
+        name: `Outfit_${i}`,
+        image: `./DATASET KULIT/${category}${i}.png`,
+      });
+    }
+  });
+
+  return products;
+}
+
 const products = generateProducts();
 
 function previewImage() {
@@ -30,26 +54,8 @@ function previewImage() {
     reader.readAsDataURL(fileInput.files[0]);
   }
 }
-function generateProducts() {
-  const categories = [
-    "Cokelat_Laki",
-    "Hitam_Laki",
-    "Cerah_Laki",
-    "Cokelat_Perempuan",
-    "Hitam_Perempuan",
-    "Cerah_Perempuan",
-  ];
-  const productCount = 10;
-  const products = [];
 
-  categories.forEach((category) => {
-    for (let i = 1; i <= productCount; i++) {
-      products.push({
-        name: `Outfit_${i}`,
-        image: `./DATASET KULIT/${category}${i}.png`,
-      });
-    }
-  function displayProducts(isMale, isFemale, isHitam, isCerah, isCokelat) {
+function displayProducts(isMale, isFemale, isHitam, isCerah, isCokelat) {
   const productSection = document.getElementById("productSection");
   productSection.innerHTML = "";
 
@@ -78,8 +84,4 @@ function generateProducts() {
       productSection.appendChild(productDiv);
     }
   });
-}
-  });
-
-  return products;
 }
