@@ -31,8 +31,8 @@ To get a local copy up and running follow these simple steps.
 ## Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/FebriKun205/Software-Dummy-Testing.git
-
+   git clone https://github.com/FebriKun205/AI-FashionStlist.git
+   
 ## Usage
 The goal of AI Fashion Stylist in the Fashion Industry is to bring about a major transformation in the fashion industry, with the main goal of improving efficiency, personalization, and sustainability.
 
