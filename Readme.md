@@ -6,11 +6,12 @@ Welcome to AI FashionStylist! This website helps you choose the perfect outfit b
 - [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Screenshot](#screenshot)
+- [Contact Us](#contact-us)
+  
 
 ## Introduction
 AI FashionStylist is a web application designed to assist users in selecting outfits that best complement their skin tone. By leveraging AI technology, it provides personalized fashion recommendations.
@@ -24,16 +25,24 @@ AI FashionStylist is a web application designed to assist users in selecting out
 ## Getting Started
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+## Prerequisites
 - A web browser (e.g., Chrome, Firefox, Safari)
 
-### Installation
+## Installation
 1. Clone the repo
    ```sh
    git clone https://github.com/FebriKun205/Software-Dummy-Testing.git
 
-### ScreenShot
+## Usage
+The goal of AI Fashion Stylist in the Fashion Industry is to bring about a major transformation in the fashion industry, with the main goal of improving efficiency, personalization, and sustainability.
+
+
+## ScreenShot
 ![Home Page](ScreenShoot/Home.png)
 ![Try Now Page](ScreenShoot/TryNow.png)
 ![About Us Page](ScreenShoot/AboutUs.png)
 ![Contact Us Page](ScreenShoot/ContactUs.png)
+
+## Contact Us
+Email: contact@AiFashionStylist.com
+Phone: +62898128856
